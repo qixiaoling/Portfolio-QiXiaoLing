@@ -368,20 +368,27 @@ header {
     text-align: center;
 }
 .portfolio {
+    width: 100%;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /*grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));*/
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2rem;
+    justify-content: center;
 }
-
-.portfolio__img {/*it is not from Kevin, I added it myself!*/
-    background-size: cover;
-    width: 450px;
-    height: 450px;
-}
-
 .portfolio__item {
-    background: var(--clr-accent);
+    width: 100%;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
+.portfolio__img {/*it is not from Kevin, I added it myself!*/
+    width:85%;
+    object-fit: cover;
+}
+
+
 .portfolio__img {
     transition:
             transforms 750ms cubic-bezier(0.5, 0, 0.5, 1),
@@ -434,7 +441,7 @@ header {
     margin: 0 0.5em;
 }
 
-/* Individual portfolio item styles */
+/********************** Individual portfolio item styles ******************/
 
 .portfolio-item-individual {
     padding: 0 2em 2em;
