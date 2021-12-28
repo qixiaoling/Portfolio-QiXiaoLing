@@ -9,3 +9,20 @@ navLinks.forEach(link => {
         document.body.classList.remove('nav-open');
     })
 })
+
+const portInfoBtns = document.querySelectorAll('.portfolio-info-btn');
+const portTextCloseBtns = document.querySelectorAll('.portfolio-text-close-btn');
+
+portInfoBtns.forEach(function(btn){
+    btn.addEventListener('click', function(event) {
+        const textOverlay = event.currentTarget.parentElement.nextElementSibling;
+        textOverlay.classList.add('overlay-active');
+    })
+})
+
+portTextCloseBtns.forEach(function(btn) {
+    btn.addEventListener('click', function(event) {
+        const textOverlay = event.currentTarget.parentElement;
+        textOverlay.classList.remove('overlay-active');
+    })
+})
