@@ -251,26 +251,39 @@ header {
         grid-template-areas:
             "img title"
             "img subtitle";
-        grid-auto-columns: min-content max-content;
+        grid-template-columns: min-content max-content;
     }
 
     .intro__img {
         grid-area: img;
         min-width: 250px;
         z-index: 2;
+        /*position: relative; here will work too instead of z-index: 2*/
+
+
+
     }
     .section__title--intro {
         grid-area: title;
     }
     .section__subtitle--intro {
         grid-area: subtitle;
-        align-self: start;
-        grid-column: -1 / 1;
-        grid-row: 2;
-        text-align: right ;
-        position: relative;
-        left: -1.5em;
-        width: calc(100% + 1.5em)
+        align-self: start;/*prevent it from get stretched down, stay
+        nice and small up there*/
+        grid-column: -1 / 1;/*will have it stretch the length and goes all the
+        way across, but it will go underneath the img, because by default Grid
+        will not overlap (consider grid-auto-flow / grid-auto-row / grid-auto-coloumn)*/
+        grid-row: 2;/*get around that overlapping issue, we force the element starts
+        from line 2*/
+        text-align: right ;/*now the text went to the far left, which is
+        behind the img, to fix that, use text-align: right*/
+        position: relative;/*something to avoid abs positioning is good idea
+        here we pull off this with a relative positioning, which is simply
+        defining the element is at its -1.5em, see below*/
+        left: -1.5em; /*see above comment. but now the width will not match on the right hand side
+        This is why the abs positioning is good with grid, you can easily
+        define where the element should end. But here we will do a little cheat,see below*/
+        width: calc(100% + 1.5em) /*Widening the whole element width to plus 1.5em*/
 
     }
 }
@@ -492,6 +505,7 @@ header {
 .overlay-active {
     opacity: 1;
     z-index: 10;
+    border: 1px solid var(--clr-accent);
 }
 .portfolio-text-overlay p{
     font-size: 0.85rem;
@@ -519,7 +533,7 @@ header {
     border: none;
     transform: rotate(90deg);
     font-size: 1.25rem;
-    color: var(--clr-light);
+    color: var(--clr-accent);
 }
 /* Footer */
 .footer {
