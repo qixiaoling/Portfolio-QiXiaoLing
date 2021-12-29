@@ -514,6 +514,9 @@ header {
     margin: 0;
     text-align: left;
 }
+.portfolio-tech-sheet li{
+    text-align: left;
+}
 @media (min-width: 680px) {
     .portfolio-text-overlay p{
         font-size: 1rem;
