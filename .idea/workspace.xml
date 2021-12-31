@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54646555-e5d3-49ed-9a0d-319a7cf52399" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="54646555-e5d3-49ed-9a0d-319a7cf52399" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +78,7 @@
       <workItem from="1640600039430" duration="17125000" />
       <workItem from="1640769255271" duration="4549000" />
       <workItem from="1640783187179" duration="5782000" />
-      <workItem from="1640856369803" duration="2611000" />
+      <workItem from="1640856369803" duration="2900000" />
     </task>
     <task id="LOCAL-00001" summary="first try">
       <created>1635417220710</created>
@@ -118,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640808992195</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="correction web 1">
+      <created>1640863835023</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1640863835023</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +145,7 @@
     <MESSAGE value="Grid Intro section" />
     <MESSAGE value="Text 1" />
     <MESSAGE value="Text 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Text 2" />
+    <MESSAGE value="correction web 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="correction web 1" />
   </component>
 </project>
