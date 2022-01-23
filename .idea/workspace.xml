@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54646555-e5d3-49ed-9a0d-319a7cf52399" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/img/Webopname_openWeatherApp.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/img_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -22,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Dev_Add_Two_Apps" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -87,7 +89,10 @@
       <workItem from="1641572402555" duration="1889000" />
       <workItem from="1641628241936" duration="1558000" />
       <workItem from="1641915434740" duration="3641000" />
-      <workItem from="1641974068691" duration="404000" />
+      <workItem from="1641974068691" duration="1156000" />
+      <workItem from="1642063535349" duration="637000" />
+      <workItem from="1642157543985" duration="840000" />
+      <workItem from="1642928931472" duration="2263000" />
     </task>
     <task id="LOCAL-00001" summary="first try">
       <created>1635417220710</created>
@@ -152,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641937167643</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="link added">
+      <created>1641974513575</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1641974513575</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +192,7 @@
     <MESSAGE value="correction web 3" />
     <MESSAGE value="added two websites" />
     <MESSAGE value="added two projects" />
-    <option name="LAST_COMMIT_MESSAGE" value="added two projects" />
+    <MESSAGE value="link added" />
+    <option name="LAST_COMMIT_MESSAGE" value="link added" />
   </component>
 </project>
